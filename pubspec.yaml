@@ -31,21 +31,15 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Firebase
+  firebase_core: ^3.6.0 # Connects Flutter to Firebase
+  firebase_auth: ^5.3.1 # Handles user security and identity
+  cloud_firestore: ^5.4.3 # Connects the app to the Cloud Firestore NoSQL Database
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  firebase_core: ^3.6.0
-  firebase_auth: ^5.3.1
-  cloud_firestore: ^5.4.3
-  go_router: ^13.1.0
-  dio: ^5.9.0
-  cached_network_image: ^3.3.1
-  shared_preferences: ^2.2.2
-  provider: ^6.1.5+1
-  flutter_secure_storage: ^9.2.4
-  google_fonts: ^6.2.0
-  fluttertoast: ^8.2.5
+  # UI and utilities
+  cached_network_image: ^3.3.1 # Loads images efficiently (menu packages and welcome page background)
+  shared_preferences: ^2.2.2 # Used for the "Remember Me" checkbox on the login page
+  google_fonts: ^6.2.0 # Used for fonts
 
 dev_dependencies:
   flutter_test:
